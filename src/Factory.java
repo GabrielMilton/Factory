@@ -20,12 +20,27 @@ public class Factory {
 
         Isopen = false;
         earnings = 1.1;
-        yearFounded2005 = 2025;
+        yearFounded2005 = 2026;
         FactoryInfo();
+        Isopen = true;
+        earnings = 5.4;
+        yearFounded2005 = 1037;
         FactoryInfo();
         // change the year founded and is open
         // call facotory info again
         products = "Houses";
+
+        //type(house) varilbeName = value
+        // object of type house
+        House H1 = new House();
+        H1.owner = "Mr kim";
+        System.out.println("the owner is" + H1.owner);
+        //todo give all the house intstance varibles value
+        H1.address = "400 center street, Gerogetwon, Canda";
+        H1.isOccupied = true;
+        H1.size = 50.33333333;
+        H1.walls =69;
+
 
 
     }
