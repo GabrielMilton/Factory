@@ -35,10 +35,12 @@ public class House {
 
     // todo add two more parameters to the House constructor one for isoccupied and one for addresed
 
-    public House(double psize,int pwalls, String ponwer){
+    public House(double psize,int pwalls, String ponwer, boolean pisOccupied,String padress){
         size = psize;
         walls = pwalls;
         owner = ponwer;
+        isOccupied = pisOccupied;
+        address = padress;
 
 
 

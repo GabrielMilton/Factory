@@ -44,7 +44,7 @@ public class Factory {
         System.out.println(H1.size);
         House MyHouse = new House();
          MyHouse.PrintInfo();
-         House customhouse = new House(200.240,8,"Ren");
+         House customhouse = new House(200.240,8,"Ren",true,"400 cnadyland st");
          customhouse.PrintInfo();
 
 
