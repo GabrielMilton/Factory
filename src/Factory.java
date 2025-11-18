@@ -33,21 +33,25 @@ public class Factory {
         //type(house) varilbeName = value
         // object of type house
         House H1 = new House();
+        System.out.println();
         H1.owner = "Mr kim";
         System.out.println("the owner is" + H1.owner);
         //todo give all the house intstance varibles value
-        H1.address = "400 center street, Gerogetwon, Canda";
+        H1.address = "400 center street, Gerogetwon, Candaa";
         H1.isOccupied = true;
         H1.size = 50.33333333;
         H1.walls =69;
-
+        System.out.println(H1.size);
+        House MyHouse = new House();
+         MyHouse.PrintInfo();
+         House customhouse = new House(200.24,8,"Ren");
+         customhouse.PrintInfo();
 
 
     }
     public void FactoryInfo(){
         System.out.println("The factory info:");
         System.out.println(yearFounded2005);
-        System.out.println("the year" + yearFounded2005);
 
 
 
@@ -55,9 +59,10 @@ public class Factory {
     }
 
 }
-// contstoctor - special types of methods u can tell becasue it does not have "void" and the namce of the consturcotr machtes the name of the class
+// constructor - a special methods u can tell becasue it does not have "void" and the namce of the consturcotr machtes the name of the class
 // instance varible = we know because its at the top of the class, it has public in front of them, and can be used inside facotry expect for psvm; can use instance varibles in every method
 // psvm's can only have construcor methods
 // A double - its a decmial number;any number with number
 // A string - has to havew a captial S; anything that can be put into quotes. Any letter, word, or sotry
+//null - havent set in the defention or value
 //todo make a method called facotory info
