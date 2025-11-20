@@ -44,8 +44,13 @@ public class Factory {
         System.out.println(H1.size);
         House MyHouse = new House();
          MyHouse.PrintInfo();
-         House customhouse = new House(200.240,8,"Ren",true,"400 cnadyland st");
+         House customhouse = new House(200.240,8,"Ren",true,"400 candyLand st");
          customhouse.PrintInfo();
+         Farm F1 = new Farm();
+         Farm F2 = new Farm("Mix Bradford's Brightful Branch","36.5323° N, 116.9325° W");
+         F2.printInfo();
+
+
 
 
     }
@@ -65,4 +70,5 @@ public class Factory {
 // A double - its a decmial number;any number with number
 // A string - has to havew a captial S; anything that can be put into quotes. Any letter, word, or sotry
 //null - havent set in the defention or value
-//todo make a method called facotory info
+// object - a speical varible. A varilbe that has to do with the class like Myhouse.PrintInfo()
+//todo make a method called facotory info/
